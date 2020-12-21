@@ -3,5 +3,5 @@ current_second = Time.now.to_i();
 if (current_second % 2 == 0)
     puts "Even!"
 else
-    puts "ODD!"
+    puts "Odd!"
 end
