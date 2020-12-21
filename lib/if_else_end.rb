@@ -1,1 +1,7 @@
-# Write your solution here
+current_second = Time.now.to_i();
+
+if (current_second % 2 == 0)
+    puts "EVEN!"
+else
+    puts "ODD!"
+end
